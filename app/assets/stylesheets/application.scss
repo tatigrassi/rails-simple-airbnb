@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+.bg-light {
+    background-color: #f8f9fa!important;
+}
+
+@media (min-width: 992px)
+.navbar-expand-lg {
+  flex-wrap: nowrap;
+}
